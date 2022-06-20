@@ -1,0 +1,31 @@
+div {
+    margin: auto;
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+}
+
+
+.kelas1 {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+
+.kelas2 {
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+}
+
+.kelas3 {
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+}
+
+p {
+    margin: 0;
+}
