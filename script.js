@@ -1,2 +1,3 @@
 const modal = document.getElementById("modal");
-modal.className += "hiden";
+// modal.className += "hiden";
+console.log(modal);
