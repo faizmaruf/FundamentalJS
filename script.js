@@ -4,7 +4,8 @@ const container = document.getElementById("container");
 // console.log(modal);
 modal.remove();
 
+// container.insertBefore(modal, container.children[0]);
 
-function(){
-container.insertBefore(modal, container.children[0]);
+function myFunc() {
+  //
 }
