@@ -17,3 +17,4 @@
 // const btn1 = document.getElementById("btn");
 // btn1.addEventListener("click", myFunc());
 console.log(document);
+console.log("faiz");
