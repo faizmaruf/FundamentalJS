@@ -18,3 +18,4 @@
 // btn1.addEventListener("click", myFunc());
 console.log(document);
 console.log("faiz");
+console.log("ganteng");
