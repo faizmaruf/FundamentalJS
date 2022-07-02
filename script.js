@@ -15,7 +15,12 @@
 //   }
 // }
 // const btn1 = document.getElementById("btn");
-// btn1.addEventListener("click", myFunc());
-console.log(document);
-console.log("faiz");
-console.log("ganteng");
+// // btn1.addEventListener("click", myFunc());
+// console.log(document);
+// console.log("faiz");
+// console.log("ganteng");
+let i = 0;
+while (i < 10) {
+  console.log("faiz ganteng");
+  i++;
+}
