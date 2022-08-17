@@ -13,4 +13,3 @@ let isPalindrome = function (x) {
   }
   return isPalindrome;
 };
-console.log(isPalindrome(12345432));
