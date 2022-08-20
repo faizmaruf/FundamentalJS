@@ -5,3 +5,5 @@
 ## 2. romanToInt
 
 ## 3. isPalindrome
+
+## 4. longestCommonPrefix
