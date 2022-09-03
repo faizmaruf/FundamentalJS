@@ -6,18 +6,12 @@ function findMiddleAlphabet(a, b) {
   if (first > last) {
     return "masukan inputan dengan benar !";
   } else {
-    let tengah;
-    let mid = (last - first) / 2;
-    if (mid % 2 == 0) {
-      tengah = Math.round(mid);
+    let mid = (last + first) / 2;
+    if ((last - first) % 2 != 0) {
+      return al.slice(mid, mid + 2).join("");
     } else {
-      tengah = Math.ceil(mid);
+      return al.slice(mid, mid + 1).join("");
     }
-    console.log(tengah);
-    console.log(mid);
-    console.log(first);
-    console.log(last);
-    return al.slice(first + tengah, last - tengah + 1);
   }
 }
-console.log(findMiddleAlphabet("R", "U"));
+console.log(findMiddleAlphabet("Q", "Z"));
