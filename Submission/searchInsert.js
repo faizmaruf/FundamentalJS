@@ -1,19 +1,28 @@
 let arr = [1, 3, 5, 6]
 let target = 5;
 
-const searchInsert = (nums, target) => {
-    // for (let i = 0; i < nums.length; i++) {
-    //     target == nums[i] ? nums.splice(i, 0, target) : null;
-    // }
-    // return nums;
-    // return nums.splice(0, 5, 8) 
-
-    return nums.map((num) => {
-        return num < target
-    })
+function insertAt(array, index, ...elementsArray) {
+    array.splice(index, 0, ...elementsArray);
 }
 
-// console.log(searchInsert(arr, target))
+// const searchInsert = (nums, target, callback) => {
+//     let arr = [];
+//     if (nums.includes(target)) {
+//         arr = callback(nums, nums.indexOf(target), target);
+//     }
+//     return arr;
+// }
+function searchInsert(nums, target, callback) {
+    let arr = [];
+    if (nums.includes(target)) {
+        arr = callback(nums, nums.indexOf(target), target);
+    }
+    return arr;
+}
+searchInsert(arr, target, insertAt)
 console.log(arr)
+// console.log(searchInsert(arr, target, insertAt))
+// console.log(insertAt(arr, 1, 2, 3))
+// console.log(arr)
 // let arr2 = arr.toString();
-console.log(arr.splice(arr.indexOf(3), 1))
+// console.log(arr.splice(arr.indexOf(3), 1))
